@@ -155,7 +155,7 @@ export default function Sidebar({ activeItem, onItemClick, isOpen, onClose, coll
                 boxShadow: '0 0 12px rgba(232,168,73,0.4), 0 2px 8px rgba(0,0,0,0.4)',
               }}
             >
-              B
+              曜
             </div>
             <h1
               className="text-base font-display font-semibold tracking-wide"
@@ -169,7 +169,7 @@ export default function Sidebar({ activeItem, onItemClick, isOpen, onClose, coll
                 filter: 'drop-shadow(0 0 8px rgba(232,168,73,0.3))',
               }}
             >
-              BoxWang
+              曜合
             </h1>
           </div>
           {/* Mobile close button */}
@@ -309,7 +309,7 @@ export default function Sidebar({ activeItem, onItemClick, isOpen, onClose, coll
               backgroundClip: 'text',
             }}
           >
-            BoxWang Tools
+            YAOHE TOOLS SUITE
           </p>
         </div>
       </aside>

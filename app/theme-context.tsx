@@ -22,7 +22,7 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
   const [theme, setTheme] = useState<Theme>('dark');
 
   useEffect(() => {
-    const saved = localStorage.getItem('boxwang-theme') as Theme | null;
+    const saved = (localStorage.getItem('yaohe-theme') ?? localStorage.getItem('boxwang-theme')) as Theme | null;
     if (saved === 'light' || saved === 'dark') {
       setTheme(saved);
     }
@@ -30,7 +30,7 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
-    localStorage.setItem('boxwang-theme', theme);
+    localStorage.setItem('yaohe-theme', theme);
   }, [theme]);
 
   const toggleTheme = () => {

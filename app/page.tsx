@@ -18,6 +18,7 @@ import ParseChannelConfig from '@/components/ParseChannelConfig';
 import ApiTester from '@/components/ApiTester';
 import NovelReader from '@/components/NovelReader';
 import AboutPage from '@/components/AboutPage';
+import SiteFooter from '@/components/SiteFooter';
 import { useTheme } from '@/app/theme-context';
 import { useToast } from '@/app/toast-context';
 import { extractDominantColor, applyAmbientColor } from '@/lib/color-extract';
@@ -991,6 +992,7 @@ export default function Home() {
         >
           {renderContent()}
         </div>
+        <SiteFooter />
       </main>
 
       {/* Player Page */}

@@ -3,8 +3,8 @@ import './globals.css';
 import Providers from './providers';
 
 export const metadata: Metadata = {
-  title: 'BoxWang · 工具箱',
-  description: '在线多功能工具箱 — 文档转换、图片下载、免费音乐',
+  title: '曜合 · 数字工具箱',
+  description: '曜合数字工具箱 — 文档转换、图片下载、免费音乐、在线阅读',
 };
 
 export default function RootLayout({

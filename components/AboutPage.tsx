@@ -54,11 +54,11 @@ export default function AboutPage() {
         <div className="relative z-10 text-center">
           <h1 className="text-3xl sm:text-4xl font-display font-bold mb-3">
             <span className={theme === 'dark' ? 'text-gradient-silk' : ''} style={theme === 'light' ? { color: '#8b6914' } : {}}>
-              关于 BoxWang 工具箱
+              关于曜合数字工具箱
             </span>
           </h1>
           <p className={`text-sm max-w-2xl mx-auto leading-relaxed ${theme === 'dark' ? 'text-obsidian-100/70' : 'text-gray-500'}`}>
-            一个集文档转换、图片处理、免费音乐、在线阅读于一体的多功能在线工具箱。
+            曜合 — 集文档转换、图片处理、免费音乐、在线阅读于一体的多功能数字工具平台。
             追求极致的视觉体验与流畅的交互感受。
           </p>
           <div className="separator-gradient mt-6 max-w-xs mx-auto" />
@@ -153,7 +153,7 @@ export default function AboutPage() {
       {/* 底部信息 */}
       <div className="text-center pb-8">
         <p className={`text-xs ${theme === 'dark' ? 'text-obsidian-100/30' : 'text-gray-400'}`}>
-          BoxWang Tools Suite · Built with Next.js &amp; ❤
+          YaoHe Tools Suite · Built with Next.js &amp; ❤
         </p>
       </div>
     </div>
