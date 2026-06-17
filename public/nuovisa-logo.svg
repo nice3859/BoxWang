@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="nuovisa-gold" x1="4" y1="4" x2="44" y2="44" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f0c878"/>
+      <stop offset="1" stop-color="#c8842a"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="44" height="44" rx="10" fill="url(#nuovisa-gold)"/>
+  <text
+    x="24"
+    y="32"
+    text-anchor="middle"
+    font-family="system-ui, -apple-system, 'Segoe UI', sans-serif"
+    font-size="22"
+    font-weight="700"
+    fill="#0c0907"
+  >N</text>
+</svg>
